@@ -46,10 +46,9 @@ const Projects = () => (
         </div>
         <div className="buttons">
           <a href="https://github.com/anule/who-or-them">
-            <button
-              className="button is-medium is-outlined Github"
-              role="link"
-            />
+            <button className="button is-medium is-outlined Github" role="link">
+              Code
+            </button>
           </a>
         </div>
         <div className="description">
