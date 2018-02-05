@@ -38,6 +38,39 @@ const Projects = () => (
         </div>
       </div>
 
+      <div className="project" id="who-or-them">
+        <h1 className="project-title">Check Your Fave</h1>
+        <div>
+          <img src="#" alt="Check Your Fave Neo4j graph visualization" />
+        </div>
+        <div className="buttons">
+          <a href="https://github.com/anule/who-or-them">
+            <button
+              className="button is-medium is-outlined Github"
+              role="link"
+            />
+          </a>
+        </div>
+        <div className="description">
+          <span className="text">October 2017 - present</span>
+          <p className="text">
+            A web application that explores the social graph of celebrities as
+            determined by the popular podcast, Who Weekly. <br />
+            <br /> By mapping out relationships between popular and irrelevant
+            celebrities, my next iteration of this application is to write an
+            algorithm that will determine the likelihood of an irrelevant
+            celebrity to become genuinely famous, based on their existing
+            relationships to famous people
+          </p>
+          <p className="text">
+            <b>Tech stack:</b> Node.js, Express.js, Neo4j database hosted on
+            GrapheneDB, React.js, Redux.js, CSS, Webpack <br />
+            <br />
+            <b>Testing:</b> Mocha, Chai, Enzyme, Postman
+          </p>
+        </div>
+      </div>
+
       <div className="project" id="global-kitchen">
         <h1 className="project-title">Global Kitchen</h1>
         <div className="project-img">
