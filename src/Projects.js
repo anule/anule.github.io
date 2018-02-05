@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import kitchen from './global-kitchen.png';
 import h2store from './h2store.png';
+import neo4j from './neo4j-display.png';
 
 const Projects = () => (
   <section id="projects">
@@ -41,7 +42,7 @@ const Projects = () => (
       <div className="project" id="who-or-them">
         <h1 className="project-title">Check Your Fave</h1>
         <div>
-          <img src="#" alt="Check Your Fave Neo4j graph visualization" />
+          <img src={neo4j} alt="Check Your Fave Neo4j graph visualization" />
         </div>
         <div className="buttons">
           <a href="https://github.com/anule/who-or-them">
