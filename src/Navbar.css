@@ -2,17 +2,25 @@
  * NAVBAR
  */
 nav {
-  display: flex;
-  font-family: 'Raleway', sans-serif;
-  justify-content: flex-start;
   height: 6rem;
   border-bottom: 1px solid black;
+}
+
+#nav-items {
+  position: relative;
+  height: inherit;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  align-content: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
 }
 
 /*
  * LOGO
  */
-nav > h1 {
+#nav-items > h1 {
   font-size: 400%;
   font-weight: 500;
 }

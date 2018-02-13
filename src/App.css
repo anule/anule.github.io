@@ -12,3 +12,12 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+main {
+  position: relative;
+}
+
+section {
+  padding-top: 6rem;
+  margin-top: 0.5rem;
+}
