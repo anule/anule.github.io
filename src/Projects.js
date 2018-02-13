@@ -41,7 +41,7 @@ const Projects = () => (
 
       <div className="project" id="who-or-them">
         <h1 className="project-title">Check Your Fave</h1>
-        <div>
+        <div className="project-img">
           <img src={neo4j} alt="Check Your Fave Neo4j graph visualization" />
         </div>
         <div className="buttons">
@@ -54,8 +54,8 @@ const Projects = () => (
         <div className="description">
           <span className="text">October 2017 - present</span>
           <p className="text">
-            A web application that explores the social graph of celebrities as
-            determined by the popular podcast, Who Weekly. <br />
+            A searchable social graph of celebrities. Inspired by the popular
+            podcast, Who Weekly <br />
             <br /> By mapping out relationships between popular and irrelevant
             celebrities, my next iteration of this application is to write an
             algorithm that will determine the likelihood of an irrelevant
