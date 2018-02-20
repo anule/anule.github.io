@@ -5,9 +5,7 @@ import './Contact.css';
 // const resumeLink = 'https://anule.github.io/Anule-Ndukwu-Resume.pdf';
 
 const Contact = () => (
-  <section id="contact">
-    <h1 className="title">contact</h1>
-
+  <section className="slide-out" id="contact">
     <div id="contact-icons">
       <a href="https://www.linkedin.com/in/anule-ndukwu">
         <i className="fa fa-linkedin-square fa-4x" aria-hidden="true" />
