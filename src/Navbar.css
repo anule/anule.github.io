@@ -34,3 +34,18 @@ nav {
   justify-content: flex-end;
   float: right;
 }
+
+/* Mobile styling */
+@media only screen and (max-width: 420px) {
+  nav {
+    height: 40px;
+  }
+
+  #nav-items {
+    width: 100;
+  }
+  /* LOGO */
+  #nav-items > h1 {
+    font-size: 100%;
+  }
+}

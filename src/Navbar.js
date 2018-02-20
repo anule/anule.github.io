@@ -10,9 +10,24 @@ const Navbar = () => (
       aria-label="main navigation"
     >
       <div id="nav-items">
-        <h1 className="navbar-item">Anule Ndukwu</h1>
+        <div className="navbar-brand">
+          <a className="navbar-item" href="https://anule.github.com">
+            <h1>Anule Ndukwu</h1>
+          </a>
+          <div className="navbar-brand">
+            <span>
+              <a href="#about">About Me</a>
+            </span>
+            <span>
+              <a href="#projects">Projects</a>
+            </span>
+            <span>
+              <a href="#contact">Contact</a>
+            </span>
+          </div>
+        </div>
 
-        <div className="navbar-menu">
+        {/*<div className="navbar-menu">
           <span className="navbar-item">
             <a href="#about">About Me</a>
           </span>
@@ -22,7 +37,7 @@ const Navbar = () => (
           <span className="navbar-item">
             <a href="#contact">Contact</a>
           </span>
-        </div>
+</div>*/}
       </div>
     </nav>
     <Contact />
