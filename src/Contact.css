@@ -1,15 +1,14 @@
 #contact {
-  margin-top: 5.5rem;
-
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 3em;
 }
 
 #contact-icons {
-  margin: auto;
-  padding: 1.2rem;
-  width: 50%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 420px) {
 }
