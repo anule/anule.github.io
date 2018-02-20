@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './Navbar';
 import About from './About';
 import Projects from './Projects';
-import Contact from './Contact';
 
 const App = () => (
   <div className="App container">
@@ -13,7 +12,6 @@ const App = () => (
     <main>
       <About />
       <Projects />
-      <Contact />
     </main>
   </div>
 );
