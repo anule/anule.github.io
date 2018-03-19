@@ -35,9 +35,6 @@ nav {
   float: right;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 420px) {
-=======
 /* Mobile styling */
 @media only screen and (max-width: 420px) {
   nav {
@@ -48,7 +45,6 @@ nav {
     width: 100;
   }
   /* LOGO */
->>>>>>> workin on mobile styles
   #nav-items > h1 {
     font-size: 100%;
   }

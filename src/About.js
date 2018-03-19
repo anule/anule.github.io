@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import headshot from './profile-pic.jpg';
+import headshot from './images/profile-pic.jpg';
 
 const About = () => (
   <section id="about">
