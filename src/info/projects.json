@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Check Your Fave",
+    "demo": null,
+    "code": "https://github.com/anule/who-or-them",
+    "image": "../images/neo4j-display.png",
+    "time-span": "October 2017 - March 2018",
+    "description":
+      "A searchable social graph of celebrities. Inspired by the popular podcast, Who Weekly. By mapping out relationships between popular and irrelevant celebrities, my next iteration of this application is to write an algorithm that will determine the likelihood of an irrelevant celebrity to become genuinely famous, based on their existing relationships to famous people",
+    "stack":
+      "Node.js, Express.js server, Neo4j database via GrapheneDB, React/Redux, CSS, Webpack. Testing with Mocha, Chai, Enzyme, Postman"
+  },
+  {
+    "title": "h2Store",
+    "demo": "http://h2store.herokuapp.com",
+    "code": "https://github.com/anule/h2store",
+    "image": "../images/h2store.png",
+    "time-span": "November 2017",
+    "description": "An e-commerce site which sells varieties of water.",
+    "stack":
+      "Node.js, Express.js server, PostgreSQL, React/Redux, Sass, Webpack. Developed using Agile Development"
+  },
+  {
+    "title": "Global Kitchen",
+    "demo": "http://global-kitchen.herokuapp.com",
+    "code": "https://github.com/GH-FoodNetwork/Global-Kitchen",
+    "image": "../images/global-kitchen.png",
+    "time-span": "November 2017 - December 2017",
+    "description": "A time-management simulation game designed to teach players about unique foods from around the world, with most game logic written in vanilla Javascript",
+    "stack": "Redux, Pixi.js, Javascript. Developed using Agile Development"
+  }
+]
