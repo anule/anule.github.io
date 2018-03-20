@@ -38,3 +38,20 @@ img {
 .description {
   font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 420px) {
+  #projects {
+    margin-top: 100px;
+  }
+
+  .project-tiles {
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+  }
+
+  .project {
+    width: 100%;
+    margin: 25px 0;
+  }
+}

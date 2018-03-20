@@ -14,7 +14,7 @@ const Navbar = () => (
           <a className="navbar-item" href="https://anule.github.com">
             <h1>Anule Ndukwu</h1>
           </a>
-          <div className="navbar-brand">
+          <div>
             <span>
               <a href="#about">About Me</a>
             </span>
