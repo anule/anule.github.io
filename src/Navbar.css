@@ -9,7 +9,7 @@ nav {
 #nav-items {
   position: relative;
   height: inherit;
-  display: flex;
+  display: row;
   font-family: 'Raleway', sans-serif;
   align-content: center;
   justify-content: space-between;
@@ -27,6 +27,8 @@ nav {
 
 .navbar-brand {
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar-menu {
@@ -38,14 +40,20 @@ nav {
 /* Mobile styling */
 @media only screen and (max-width: 420px) {
   nav {
-    height: 40px;
+    height: 60px;
   }
 
   #nav-items {
     width: 100;
   }
   /* LOGO */
-  #nav-items > h1 {
+  .nav-item h1 {
     font-size: 100%;
+    margin: auto;
+  }
+
+  .navbar-brand {
+    flex-direction: column;
+    align-content: center;
   }
 }

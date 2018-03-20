@@ -17,8 +17,7 @@ const About = () => (
         </p>
         <br />
         <p className="text">
-          I love developing applications that are easy to use, accessible for
-          everyone, and advance social progress.
+          I love developing applications that are easy to use and accessible for everyone. I'm particularly interested in civic technology and open source software.
         </p>
         <br />
         <p className="text">
