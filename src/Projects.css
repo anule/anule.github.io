@@ -26,6 +26,10 @@
   width: 80%;
 }
 
+img#twitter-logo {
+  object-fit: contain;
+}
+
 img {
   object-fit: cover;
 }
