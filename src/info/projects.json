@@ -1,6 +1,14 @@
-
-
 [
+  {
+    "title": "Lesser Known Git Commands",
+    "demo": "https://twitter.com/UncommonGitCmd",
+    "code": "https://glitch.com/edit/#!/uncommon-git",
+    "image": "https://anule.github.io/src/images/git-logo-social-media-3cf5485c5e5a1f2e-512x512.png",
+    "imageAlt": "Lesser Known Git Commands Twitter Icon",
+    "timeSpan": "April 2018",
+    "description": "A Twitter bot that tweets nonsense git commands",
+    "stack": "Node.js, Express.js server, Tracery API, Twit API. Created on Glitch"
+  },
   {
     "title": "Check Your Fave",
     "demo": null,
