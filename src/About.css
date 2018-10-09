@@ -27,3 +27,12 @@
   display: flex;
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 420px) {
+  #info {
+    flex-direction: column;
+  }
+  #skills {
+    margin-top: 30px;
+  }
+}

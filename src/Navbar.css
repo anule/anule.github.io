@@ -34,3 +34,13 @@ nav {
   justify-content: flex-end;
   float: right;
 }
+
+@media only screen and (max-width: 420px) {
+  #nav-items > h1 {
+    font-size: 100%;
+  }
+
+  #nav-items span {
+    
+  }
+}
