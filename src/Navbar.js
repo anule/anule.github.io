@@ -9,15 +9,6 @@ const Navbar = () => (
   >
     <div id="nav-items">
       <h1 className="navbar-item">Anule Ndukwu</h1>
-      <span className="navbar-item">
-        <a href="#about">About Me</a>
-      </span>
-      <span className="navbar-item">
-        <a href="#projects">Projects</a>
-      </span>
-      <span className="navbar-item">
-        <a href="#contact">Contact</a>
-      </span>
     </div>
   </nav>
 );
