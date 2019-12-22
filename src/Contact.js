@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-// import '../public/Anule-Ndukwu-Resume.pdf';
+import './Resume-Anule-Ndukwu.pdf';
 
-// const resumeLink = 'https://anule.github.io/Anule-Ndukwu-Resume.pdf';
+const resumeLink = 'https://anule.github.io/Anule-Ndukwu-Resume.pdf';
 
 const Contact = () => (
   <section id="contact">
@@ -20,6 +20,9 @@ const Contact = () => (
       </a>
       <a href="https://anulendukwu.space">
         <i className="fa fa-camera-retro fa-4x" aria-hidden="true" />
+      </a>
+      <a href={resumeLink}>
+        <i class="fa fa-file fa-3x"></i>
       </a>
     </div>
   </section>
