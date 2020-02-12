@@ -1,12 +1,13 @@
 import React from 'react';
 import headshot from './images/profile-pic.jpg';
+import './About.css'
 
 const About = () => (
-  <section id="about">
-    <div id="self-portrait">
+  <section className="about">
+    <div id="self-portrait" className="portrait-row">
       <img src={headshot} alt="profile pic" />
     </div>
-    <div id="info">
+    <div id="info" className="bio-row">
       <div id="bio">
         <h1 className="title">bio</h1>
         <p className="text">Hi, I'm Anule!</p>

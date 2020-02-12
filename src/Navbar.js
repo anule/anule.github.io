@@ -25,18 +25,6 @@ const Navbar = () => (
                         </span>
                     </div>
                 </div>
-
-                {/*<div className="navbar-menu">
-          <span className="navbar-item">
-            <a href="#about">About Me</a>
-          </span>
-          <span className="navbar-item">
-            <a href="#projects">Projects</a>
-          </span>
-          <span className="navbar-item">
-            <a href="#contact">Contact</a>
-          </span>
-</div>*/}
             </div>
         </nav>
         <Contact />

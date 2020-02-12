@@ -1,0 +1,6 @@
+.about {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  max-width: 75%;
+  margin: auto;
+}
