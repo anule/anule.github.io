@@ -1,5 +1,4 @@
 import React from 'react';
-import './Navbar.css';
 import Contact from './Contact';
 
 const Navbar = () => (

@@ -1,6 +1,5 @@
 import React from 'react';
-import './Contact.css';
-import './Resume-Anule-Ndukwu.pdf';
+// import '../public/Anule-Ndukwu-Resume.pdf';
 
 const resumeLink = 'https://anule.github.io/Anule-Ndukwu-Resume.pdf';
 

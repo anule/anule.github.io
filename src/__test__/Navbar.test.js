@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
-import Navbar from './Navbar';
+import Navbar from '../Navbar';
 const nav = shallow(<Navbar />);
 
 it('renders navigation bar', () => {

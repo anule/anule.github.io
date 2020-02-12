@@ -1,5 +1,4 @@
 import React from 'react';
-import './Projects.css';
 import projects from './info/projects.json';
 // import kitchen from './images/global-kitchen.png';
 // import h2store from './images/h2store.png';
