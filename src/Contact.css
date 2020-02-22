@@ -1,0 +1,14 @@
+#contact {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 3em;
+}
+
+#contact-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 420px) {
+}
